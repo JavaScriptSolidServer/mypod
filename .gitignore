@@ -1,0 +1,5 @@
+node_modules/
+pod-data/
+*.log
+.DS_Store
+.env

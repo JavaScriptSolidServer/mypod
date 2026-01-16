@@ -1,0 +1,40 @@
+{
+  "name": "solidpod",
+  "version": "0.0.1",
+  "description": "Solid Pod Server - The easiest way to run a Solid pod",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "solidpod": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaScriptSolidServer/solidpod.git"
+  },
+  "keywords": [
+    "solid",
+    "pod",
+    "server",
+    "linked-data",
+    "webid",
+    "semantic-web",
+    "decentralized",
+    "rdf",
+    "ldp"
+  ],
+  "author": "Melvin Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JavaScriptSolidServer/solidpod/issues"
+  },
+  "homepage": "https://github.com/JavaScriptSolidServer/solidpod#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "jspod": "^0.0.3"
+  }
+}
