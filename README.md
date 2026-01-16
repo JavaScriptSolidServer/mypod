@@ -1,17 +1,17 @@
-# solidpod
+# mypod
 
 > The easiest way to run a Solid pod. Zero configuration, just works.
 
-[![npm version](https://img.shields.io/npm/v/solidpod.svg)](https://www.npmjs.com/package/solidpod)
+[![npm version](https://img.shields.io/npm/v/mypod.svg)](https://www.npmjs.com/package/mypod)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**solidpod** is the simplest wrapper to run your own [Solid](https://solidproject.org) pod server.
+**mypod** is the simplest wrapper to run your own [Solid](https://solidproject.org) pod server.
 
 ## 🚀 Quick Start
 
 ```bash
 # Run instantly with npx (no installation required!)
-npx solidpod
+npx mypod
 
 # That's it! Your Solid pod is running at http://localhost:5444
 ```
@@ -30,57 +30,57 @@ npx solidpod
 ### No Installation (Recommended)
 
 ```bash
-npx solidpod
+npx mypod
 ```
 
 ### Global Installation
 
 ```bash
-npm install -g solidpod
-solidpod
+npm install -g mypod
+mypod
 ```
 
 ## 🎮 Usage
 
 ```bash
 # Start with defaults
-solidpod
+mypod
 
 # Custom port
-solidpod --port 8080
+mypod --port 8080
 
 # Custom data directory
-solidpod --root /var/pods
+mypod --root /var/pods
 
 # Multi-user mode
-solidpod --multiuser
+mypod --multiuser
 
 # Disable authentication
-solidpod --no-auth
+mypod --no-auth
 
 # Show help
-solidpod --help
+mypod --help
 ```
 
 ## 📖 How It Works
 
-solidpod is a thin wrapper around [jspod](https://github.com/JavaScriptSolidServer/jspod), which itself wraps [JavaScriptSolidServer](https://github.com/JavaScriptSolidServer/JavaScriptSolidServer).
+mypod is a thin wrapper around [jspod](https://github.com/JavaScriptSolidServer/jspod), which itself wraps [JavaScriptSolidServer](https://github.com/JavaScriptSolidServer/JavaScriptSolidServer).
 
 **Layers:**
 ```
-solidpod → jspod → JavaScriptSolidServer
+mypod → jspod → JavaScriptSolidServer
 ```
 
 Each layer adds convenience:
 - **JavaScriptSolidServer**: Full-featured Solid server implementation
 - **jspod**: Beautiful CLI with sensible defaults
-- **solidpod**: Most user-friendly name for instant discovery
+- **mypod**: Most user-friendly name for instant discovery
 
 ## 🌟 First Run
 
 **Step 1**: Run the command
 ```bash
-npx solidpod
+npx mypod
 ```
 
 **Step 2**: Open http://localhost:5444 in your browser

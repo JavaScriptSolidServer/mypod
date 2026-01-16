@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * solidpod - Solid Pod Server
+ * mypod - My Solid Pod
  * The easiest way to run a Solid pod
  */
 

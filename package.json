@@ -1,18 +1,18 @@
 {
-  "name": "solidpod",
+  "name": "mypod",
   "version": "0.0.1",
   "description": "Solid Pod Server - The easiest way to run a Solid pod",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "solidpod": "./index.js"
+    "mypod": "./index.js"
   },
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JavaScriptSolidServer/solidpod.git"
+    "url": "git+https://github.com/JavaScriptSolidServer/mypod.git"
   },
   "keywords": [
     "solid",
@@ -28,9 +28,9 @@
   "author": "Melvin Carvalho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JavaScriptSolidServer/solidpod/issues"
+    "url": "https://github.com/JavaScriptSolidServer/mypod/issues"
   },
-  "homepage": "https://github.com/JavaScriptSolidServer/solidpod#readme",
+  "homepage": "https://github.com/JavaScriptSolidServer/mypod#readme",
   "engines": {
     "node": ">=18.0.0"
   },
